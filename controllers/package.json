@@ -1,23 +1,18 @@
 {
-  "name": "dialog_flow_service",
+  "name": "controllers",
   "version": "1.0.0",
-  "description": "Simple Dialog flow service",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/saiteja111997/dialog_flow_service.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/saiteja111997/dialog_flow_service/issues"
-  },
-  "homepage": "https://github.com/saiteja111997/dialog_flow_service#readme",
   "dependencies": {
+    "@google-cloud/dialogflow-cx": "^3.4.1",
+    "@google-cloud/storage": "^6.9.4",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2"
   }
 }
